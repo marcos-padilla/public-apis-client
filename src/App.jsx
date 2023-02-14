@@ -1,7 +1,15 @@
+import ApiEntry from './ApiEntry'
+import entries from './mock/entries.json'
+import './styles/app.scss'
+
 export default function App() {
 	return (
 		<div>
-			<h1>Apis</h1>
+			<ul className='page'>
+				{entries.entries.map((entry) => {
+					return <ApiEntry key={entry.Link} entry={entry} />
+				})}
+			</ul>
 		</div>
 	)
 }
