@@ -1,1 +1,1 @@
-export const API_URL = 'https://api.publicapis.org/'
+export const API_URL = 'https://api.publicapis.org'
