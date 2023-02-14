@@ -7,7 +7,7 @@ export default function App() {
 	const [categories, setCategories] = useState([])
 	const [category, setCategory] = useState('All')
 
-	const auths = ['All', 'apiKey', 'OAuth']
+	const auths = ['All', 'apiKey', 'OAuth','null']
 	const [auth, setAuth] = useState('All')
 
 	const [entries, setEntries] = useState([])
